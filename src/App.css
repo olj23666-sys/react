@@ -32,7 +32,29 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* 절대 경로 */
+/* .main-bg {
+  height: 600px;
+  background: url('https://raw.githubusercontent.com/olj23666-sys/react/refs/heads/main/img/pc_main_01.jpg') no-repeat center center;
+  background-size: cover;
+} */
+
+/* 상대 경로 */
+/* .main-bg {
+  height: 600px;
+  background: url('./img/pc_main_01.jpg') no-repeat center center;
+  background-size: cover;
+} */
+
+/* public/Img 폴더 경로 */
+.main-bg {
+  height: 600px;
+  background: url('../public/img/pc_main_01.jpg') no-repeat center center;
+  background-size: cover;
 }
